@@ -29,6 +29,9 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
 
+# Google Analytics 4 Measurement ID (looks like G-XXXXXXXXXX). Leave empty to turn analytics off.
+google_analytics: "G-NQBGQQ711M"
+
 webmaster_verifications:
   google: "ODqZQ_MOiYO4UaTnr0ODP1DFpPer77i8acVxn2k4Hws"
 
