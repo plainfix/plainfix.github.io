@@ -1,0 +1,48 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col footer-brand-col">
+        <a class="site-brand footer-brand" href="{{ '/' | relative_url }}">
+          <svg class="brand-mark" width="24" height="24" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+            <rect width="32" height="32" rx="7" fill="#047857"/>
+            <path d="M9 10h9.5a4.5 4.5 0 0 1 0 9H13v5H9V10zm4 3.5v2h5a1 1 0 0 0 0-2h-5z" fill="#ffffff"/>
+            <circle cx="22.5" cy="21.5" r="2.5" fill="#a7f3d0"/>
+          </svg>
+          <span class="brand-name">{{ site.title }}</span>
+        </a>
+        <p class="footer-tagline">{{ site.tagline }}</p>
+        <p class="footer-note">Step-by-step tech troubleshooting checked against official documentation before publication.</p>
+      </div>
+
+      <nav class="footer-col" aria-label="Guide categories">
+        <h2 class="footer-heading">Categories</h2>
+        <ul class="footer-links">
+          {% for cat in site.data.categories %}
+          <li>
+            <a href="{{ '/category/' | append: cat.slug | append: '/' | relative_url }}">{{ cat.name }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </nav>
+
+      <nav class="footer-col" aria-label="About and policies">
+        <h2 class="footer-heading">Trust &amp; Policies</h2>
+        <ul class="footer-links">
+          {% for item in site.data.navigation.footer_legal %}
+          <li>
+            <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+          </li>
+          {% endfor %}
+          <li>
+            <a href="{{ '/feed.xml' | relative_url }}">RSS Feed</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; {{ "now" | date: "%Y" }} {{ site.title }}. Written and edited by {{ site.author.name }}.</p>
+      <p class="footer-disclaimer-short">Guides provide general technical information, not legal or financial advice.</p>
+    </div>
+  </div>
+</footer>

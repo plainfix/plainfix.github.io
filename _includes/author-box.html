@@ -1,0 +1,19 @@
+{% assign author_key = page.author | default: "main" %}
+{% assign author = site.data.authors[author_key] | default: site.data.authors.main %}
+<section class="author-box" aria-label="About the author">
+  <div class="author-avatar-wrap">
+    {% if author.photo and author.photo != "" %}
+    <img class="author-avatar" src="{{ author.photo | relative_url }}" alt="{{ author.name }}" width="56" height="56" loading="lazy">
+    {% else %}
+    {% comment %}TODO: Add real author photo path in _data/authors.yml or leave empty (never use an AI headshot){% endcomment %}
+    <div class="author-initials" aria-hidden="true">SB</div>
+    {% endif %}
+  </div>
+  <div class="author-info">
+    <p class="author-label">Written &amp; fact-checked by <a href="{{ author.url | default: '/about/' | relative_url }}"><strong>{{ author.name }}</strong></a></p>
+    <p class="author-bio">{{ author.bio }}</p>
+    <p class="author-policy-link">
+      <a href="{{ '/editorial-policy/' | relative_url }}">How we research, test, and review our guides</a>
+    </p>
+  </div>
+</section>

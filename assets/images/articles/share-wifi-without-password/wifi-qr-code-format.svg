@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="285" viewBox="0 0 760 285" role="img" aria-labelledby="wifi-qr-title wifi-qr-desc">
+  <title id="wifi-qr-title">Anatomy of a Standard Wi-Fi QR Code String and Sharing Options</title>
+  <desc id="wifi-qr-desc">Shows how the standard WIFI:T:WPA;S:NetworkName;P:Password;; string works inside a QR code alongside Android QR sharing and Apple proximity sharing.</desc>
+  <rect width="760" height="285" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="30" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#0f172a">How a Wi-Fi QR Code Connects Guests Automatically</text>
+
+  <rect x="30" y="62" width="700" height="58" rx="8" fill="#ffffff" stroke="#047857" stroke-width="2"/>
+  <text x="48" y="86" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#047857">STANDARD DECODED WI-FI QR FORMAT</text>
+  <text x="48" y="108" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" font-weight="700" fill="#0f172a">WIFI:T:WPA;S:HomeGuest_5G;P:MySecretPass;H:false;;</text>
+
+  <rect x="30" y="138" width="220" height="120" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="46" y="166" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#065f46">T:WPA (Security Type)</text>
+  <text x="46" y="190" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#475569">Specifies WPA/WPA2/WPA3,</text>
+  <text x="46" y="210" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#475569">WEP, or nopass (open).</text>
+
+  <rect x="270" y="138" width="220" height="120" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="286" y="166" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#065f46">S:... (Network SSID)</text>
+  <text x="286" y="190" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#475569">Exact case-sensitive</text>
+  <text x="286" y="210" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#475569">Wi-Fi network name.</text>
+
+  <rect x="510" y="138" width="220" height="120" rx="10" fill="#fffbeb" stroke="#f59e0b" stroke-width="2"/>
+  <text x="526" y="166" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#92400e">P:... (Plain-Text Key)</text>
+  <text x="526" y="190" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#0f172a">Stored as readable text.</text>
+  <text x="526" y="210" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#0f172a">Use a Guest Network!</text>
+</svg>

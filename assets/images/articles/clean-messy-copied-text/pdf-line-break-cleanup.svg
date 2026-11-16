@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="285" viewBox="0 0 760 285" role="img" aria-labelledby="clean-txt-title clean-txt-desc">
+  <title id="clean-txt-title">How to Remove Hard Line Breaks From PDF Text While Keeping Real Paragraphs</title>
+  <desc id="clean-txt-desc">Three-step logic: replace double line breaks with a temporary token, replace single line breaks with a space, then restore double line breaks.</desc>
+  <rect width="760" height="285" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="30" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#0f172a">3-Step Find &amp; Replace Method to Fix Broken PDF Paragraphs</text>
+
+  <rect x="30" y="64" width="220" height="192" rx="10" fill="#ffffff" stroke="#047857" stroke-width="2"/>
+  <text x="46" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#065f46">1. Protect Real Paragraphs</text>
+  <text x="46" y="118" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#0f172a">Find:    ^p^p</text>
+  <text x="46" y="140" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#047857">Replace: [[PARA]]</text>
+  <text x="46" y="172" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">Saves intentional blank</text>
+  <text x="46" y="192" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">lines between paragraphs</text>
+  <text x="46" y="212" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">before joining lines.</text>
+
+  <rect x="270" y="64" width="220" height="192" rx="10" fill="#ffffff" stroke="#047857" stroke-width="2"/>
+  <text x="286" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#065f46">2. Join Broken Lines</text>
+  <text x="286" y="118" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#0f172a">Find:    ^p</text>
+  <text x="286" y="140" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#047857">Replace: (single space)</text>
+  <text x="286" y="172" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">Turns mid-sentence PDF</text>
+  <text x="286" y="192" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">line wraps back into</text>
+  <text x="286" y="212" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">flowing sentences.</text>
+
+  <rect x="510" y="64" width="220" height="192" rx="10" fill="#ffffff" stroke="#047857" stroke-width="2"/>
+  <text x="526" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#065f46">3. Restore Paragraphs</text>
+  <text x="526" y="118" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#0f172a">Find:    [[PARA]]</text>
+  <text x="526" y="140" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#047857">Replace: ^p^p</text>
+  <text x="526" y="172" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">Restores clean paragraph</text>
+  <text x="526" y="192" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">breaks, then collapse</text>
+  <text x="526" y="212" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">any double spaces.</text>
+</svg>

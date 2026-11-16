@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="290" viewBox="0 0 760 290" role="img" aria-labelledby="passkey-title passkey-desc">
+  <title id="passkey-title">How Passkeys Work Using a Private Key on Your Device and a Public Key on the Website</title>
+  <desc id="passkey-desc">Diagram showing that your biometrics never leave your phone; your phone unlocks a local private key that signs a cryptographic challenge verified by the website's public key.</desc>
+  <rect width="760" height="290" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="30" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#0f172a">How a Passkey Signs You In Without Sending a Secret Across the Internet</text>
+
+  <rect x="30" y="66" width="290" height="192" rx="10" fill="#ecfdf5" stroke="#047857" stroke-width="2"/>
+  <text x="48" y="96" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#065f46">Your Phone / Laptop</text>
+  <text x="48" y="124" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#0f172a">• Holds the secret PRIVATE KEY</text>
+  <text x="48" y="148" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#0f172a">• Unlocked locally via Face ID,</text>
+  <text x="48" y="168" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#0f172a">  fingerprint, or device PIN</text>
+  <text x="48" y="196" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#065f46">• Synced encrypted via Google</text>
+  <text x="48" y="214" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#065f46">  Password Manager or iCloud</text>
+
+  <path d="M332 142h96m-7-6l7 6-7 6" stroke="#047857" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="336" y="128" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#047857">Signed proof only</text>
+  <text x="336" y="168" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#475569">(Biometrics &amp; private</text>
+  <text x="336" y="184" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#475569">key never leave device)</text>
+
+  <rect x="440" y="66" width="290" height="192" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="458" y="96" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#0f172a">Website / App Server</text>
+  <text x="458" y="124" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#475569">• Holds only the PUBLIC KEY</text>
+  <text x="458" y="148" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#475569">• Public key is useless to</text>
+  <text x="458" y="168" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#475569">  hackers if server is breached</text>
+  <text x="458" y="196" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#047857">• Bound to real domain name</text>
+  <text x="458" y="214" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#047857">  (blocks phishing sites)</text>
+</svg>

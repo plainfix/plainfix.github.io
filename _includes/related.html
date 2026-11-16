@@ -1,0 +1,40 @@
+{% assign shown_urls = page.url | append: "|" %}
+{% assign shown_count = 0 %}
+{% capture related_cards %}
+  {% if page.related %}
+    {% for rel_slug in page.related %}
+      {% if shown_count < 3 %}
+        {% assign rel_post = site.posts | where: "slug", rel_slug | first %}
+        {% if rel_post and rel_post.published != false %}
+          {% assign check_token = rel_post.url | append: "|" %}
+          {% unless shown_urls contains check_token %}
+            {% include article-card.html post=rel_post heading_level="h3" %}
+            {% assign shown_urls = shown_urls | append: check_token %}
+            {% assign shown_count = shown_count | plus: 1 %}
+          {% endunless %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+  {% if shown_count < 3 and page.category %}
+    {% assign cat_posts = site.categories[page.category] %}
+    {% for cat_post in cat_posts %}
+      {% if shown_count < 3 and cat_post.published != false %}
+        {% assign check_token = cat_post.url | append: "|" %}
+        {% unless shown_urls contains check_token %}
+          {% include article-card.html post=cat_post heading_level="h3" %}
+          {% assign shown_urls = shown_urls | append: check_token %}
+          {% assign shown_count = shown_count | plus: 1 %}
+        {% endunless %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+{% endcapture %}
+{% if shown_count > 0 %}
+<section class="related-section" aria-labelledby="related-guides-heading">
+  <h2 id="related-guides-heading" class="section-heading">Related Guides</h2>
+  <div class="card-grid">
+    {{ related_cards }}
+  </div>
+</section>
+{% endif %}

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="285" viewBox="0 0 760 285" role="img" aria-labelledby="bg-rem-title bg-rem-desc">
+  <title id="bg-rem-title">Transparent PNG Cutout vs Solid White JPG Background for ID Photos</title>
+  <desc id="bg-rem-desc">Side-by-side comparison showing when to export a transparent PNG (checkerboard alpha for design/logos) versus flattening onto a solid white JPG (required for passport and exam forms).</desc>
+  <rect width="760" height="285" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="30" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Transparent PNG vs Solid White JPG: Which Export Do You Need?</text>
+
+  <rect x="30" y="64" width="338" height="192" rx="10" fill="#ffffff" stroke="#047857" stroke-width="2"/>
+  <text x="48" y="94" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#065f46">1. Transparent Background (.PNG)</text>
+  <text x="48" y="122" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#0f172a">• Best for: E-commerce products, slides,</text>
+  <text x="48" y="142" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#0f172a">  stickers, and graphic design overlays</text>
+  <text x="48" y="168" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#b91c1c">• Warning: If uploaded directly to an ID</text>
+  <text x="48" y="188" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#b91c1c">  portal, transparent pixels often turn</text>
+  <text x="48" y="208" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#b91c1c" font-weight="600">  solid BLACK on the admit card!</text>
+
+  <rect x="392" y="64" width="338" height="192" rx="10" fill="#ecfdf5" stroke="#047857" stroke-width="2"/>
+  <text x="410" y="94" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#065f46">2. Solid White Background (.JPG)</text>
+  <text x="410" y="122" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#0f172a">• Best for: Passport photos, visa forms,</text>
+  <text x="410" y="142" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#0f172a">  job applications, and marketplace main</text>
+  <text x="410" y="162" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#0f172a">  images</text>
+  <text x="410" y="192" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#065f46" font-weight="600">• Place a pure #FFFFFF white layer behind</text>
+  <text x="410" y="212" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#065f46" font-weight="600">  the cutout and export as JPEG.</text>
+</svg>

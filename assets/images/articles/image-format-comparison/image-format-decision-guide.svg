@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="295" viewBox="0 0 760 295" role="img" aria-labelledby="img-fmt-title img-fmt-desc">
+  <title id="img-fmt-title">Quick Decision Tree to Choose Between JPG, PNG, WebP, AVIF, and HEIC</title>
+  <desc id="img-fmt-desc">Decision chart mapping use cases: Upload forms and universal compatibility -> JPG; Logos, UI screenshots, and transparent backgrounds -> PNG; Fast modern websites -> WebP or AVIF; iPhone camera storage -> HEIC.</desc>
+  <rect width="760" height="295" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="30" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Which Image Format Should You Pick for Your Task?</text>
+
+  <rect x="28" y="64" width="164" height="198" rx="10" fill="#ffffff" stroke="#047857" stroke-width="2"/>
+  <text x="44" y="94" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700" fill="#065f46">JPG / JPEG</text>
+  <text x="44" y="120" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#0f172a">• Online exam/visa</text>
+  <text x="44" y="138" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#0f172a">  upload forms</text>
+  <text x="44" y="160" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#0f172a">• Email &amp; printing</text>
+  <text x="44" y="182" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#475569">No transparency</text>
+  <text x="44" y="232" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#047857">100% Compatibility</text>
+
+  <rect x="208" y="64" width="164" height="198" rx="10" fill="#ffffff" stroke="#047857" stroke-width="2"/>
+  <text x="224" y="94" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700" fill="#065f46">PNG</text>
+  <text x="224" y="120" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#0f172a">• Transparent logos</text>
+  <text x="224" y="142" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#0f172a">• UI screenshots with</text>
+  <text x="224" y="160" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#0f172a">  sharp small text</text>
+  <text x="224" y="182" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#475569">Large file size on photos</text>
+  <text x="224" y="232" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#047857">Lossless + Alpha</text>
+
+  <rect x="388" y="64" width="164" height="198" rx="10" fill="#ffffff" stroke="#047857" stroke-width="2"/>
+  <text x="404" y="94" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700" fill="#065f46">WebP &amp; AVIF</text>
+  <text x="404" y="120" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#0f172a">• Website speed &amp;</text>
+  <text x="404" y="138" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#0f172a">  Core Web Vitals</text>
+  <text x="404" y="160" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#0f172a">• Supports transparency</text>
+  <text x="404" y="178" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#0f172a">  and animation</text>
+  <text x="404" y="232" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#047857">Smallest Web Files</text>
+
+  <rect x="568" y="64" width="164" height="198" rx="10" fill="#fffbeb" stroke="#f59e0b" stroke-width="2"/>
+  <text x="584" y="94" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700" fill="#92400e">HEIC</text>
+  <text x="584" y="120" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#0f172a">• Default iPhone</text>
+  <text x="584" y="138" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#0f172a">  camera capture</text>
+  <text x="584" y="160" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#b91c1c">• Not supported in</text>
+  <text x="584" y="178" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#b91c1c">  web browsers/forms</text>
+  <text x="584" y="232" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#92400e">Convert to JPG to share</text>
+</svg>

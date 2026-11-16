@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="290" viewBox="0 0 760 290" role="img" aria-labelledby="exif-title exif-desc">
+  <title id="exif-title">What EXIF Metadata Is Inside a Photo and Which Sharing Paths Keep It</title>
+  <desc id="exif-desc">Diagram comparing hidden EXIF fields (GPS coordinates, date/time, phone model) across sharing channels that keep metadata versus channels that strip it.</desc>
+  <rect width="760" height="290" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="30" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Which Photo Sharing Methods Keep vs Strip Your GPS Location</text>
+
+  <rect x="30" y="64" width="338" height="196" rx="10" fill="#fef2f2" stroke="#b91c1c" stroke-width="2"/>
+  <text x="48" y="94" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#b91c1c">Paths That KEEP Hidden GPS &amp; EXIF</text>
+  <text x="48" y="122" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#0f172a">• Email attachments (Gmail, Outlook)</text>
+  <text x="48" y="146" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#0f172a">• WhatsApp / Telegram "Send as Document"</text>
+  <text x="48" y="170" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#0f172a">• Google Drive, iCloud &amp; Dropbox links</text>
+  <text x="48" y="194" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#0f172a">• AirDrop &amp; Nearby/Quick Share</text>
+  <text x="48" y="228" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#b91c1c">Always strip metadata before sharing here!</text>
+
+  <rect x="392" y="64" width="338" height="196" rx="10" fill="#ecfdf5" stroke="#047857" stroke-width="2"/>
+  <text x="410" y="94" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#065f46">Paths That Usually STRIP EXIF on Display</text>
+  <text x="410" y="122" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#0f172a">• Standard WhatsApp chat image mode</text>
+  <text x="410" y="146" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#0f172a">• Instagram, Facebook, X &amp; Reddit posts</text>
+  <text x="410" y="176" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">Note: Even when stripped from public view,</text>
+  <text x="410" y="196" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">the platform's own servers may read the</text>
+  <text x="410" y="216" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">GPS tag during upload.</text>
+</svg>

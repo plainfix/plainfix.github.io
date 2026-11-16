@@ -1,0 +1,60 @@
+---
+layout: default
+---
+{% assign cat_obj = site.data.categories | where: "slug", page.category | first %}
+{% assign author_key = page.author | default: "main" %}
+{% assign author = site.data.authors[author_key] | default: site.data.authors.main %}
+{% assign words = content | strip_html | number_of_words %}
+{% assign read_mins = words | plus: 199 | divided_by: 200 %}
+{% if read_mins < 1 %}{% assign read_mins = 1 %}{% endif %}
+
+<article class="post-article container">
+  {% include breadcrumbs.html %}
+
+  <header class="post-header">
+    {% if cat_obj %}
+    <a class="category-chip" href="{{ '/category/' | append: cat_obj.slug | append: '/' | relative_url }}">{{ cat_obj.name }}</a>
+    {% endif %}
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.description %}
+    <p class="post-lead">{{ page.description }}</p>
+    {% endif %}
+    <div class="post-meta">
+      <span class="post-meta-item">
+        By <a href="{{ author.url | default: '/about/' | relative_url }}">{{ author.name }}</a>
+      </span>
+      <span class="meta-sep" aria-hidden="true">&middot;</span>
+      <span class="post-meta-item">
+        Published <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+      </span>
+      {% if page.last_modified_at %}
+      <span class="meta-sep" aria-hidden="true">&middot;</span>
+      <span class="post-meta-item post-updated">
+        Updated <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">{{ page.last_modified_at | date: "%B %-d, %Y" }}</time>
+      </span>
+      {% endif %}
+      <span class="meta-sep" aria-hidden="true">&middot;</span>
+      <span class="post-meta-item">{{ read_mins }} min read</span>
+    </div>
+  </header>
+
+  <div class="post-layout">
+    <div class="post-main">
+      {% include toc-note.html %}
+      <div class="article-body prose" id="article-body">
+        {{ content }}
+      </div>
+      {% include author-box.html %}
+      {% include prev-next.html %}
+    </div>
+
+    <aside class="post-sidebar" id="post-sidebar" aria-label="Table of contents">
+      <div class="toc-sticky" id="toc-sticky" hidden>
+        <p class="toc-sidebar-heading">On this page</p>
+        <nav class="toc-desktop-nav" id="toc-desktop-nav" aria-label="Table of contents (sidebar)"></nav>
+      </div>
+    </aside>
+  </div>
+
+  {% include related.html %}
+</article>

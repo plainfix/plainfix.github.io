@@ -1,0 +1,31 @@
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
+.bundle/
+.DS_Store
+BACKLINK_AUDIT.md
+PROJECT_STATE.md
+tools/
+_drafts/
+Gemfile
+Gemfile.lock
+
+# Secrets / local env (never commit)
+.env
+.env.*
+*.pem
+*.key
+*.p12
+secrets*
+credentials*
+
+# Python / editor / OS junk
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+*.log
+Thumbs.db
+._*

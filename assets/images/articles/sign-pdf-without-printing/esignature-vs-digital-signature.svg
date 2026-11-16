@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="295" viewBox="0 0 760 295" role="img" aria-labelledby="pdf-sign-title pdf-sign-desc">
+  <title id="pdf-sign-title">Simple Visual E-Signature vs Certificate-Based Digital Signature (DSC / Aadhaar eSign)</title>
+  <desc id="pdf-sign-desc">Comparison of visual electronic signatures (drawn or placed image in Preview/Acrobat) versus cryptographic digital signatures (USB DSC token or Aadhaar eSign with tamper-evident seal).</desc>
+  <rect width="760" height="295" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="30" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Visual E-Signature vs Cryptographic Digital Signature: Which Do You Need?</text>
+
+  <rect x="30" y="64" width="338" height="202" rx="10" fill="#ffffff" stroke="#047857" stroke-width="2"/>
+  <text x="48" y="94" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#065f46">1. Simple Visual E-Signature</text>
+  <text x="48" y="122" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#0f172a">• What it is: Your handwritten signature</text>
+  <text x="48" y="142" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#0f172a">  drawn with a trackpad/finger or placed</text>
+  <text x="48" y="162" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#0f172a">  as a clean ink image onto the PDF page</text>
+  <text x="48" y="192" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#047857">• Accepted for: Job offer letters, NDAs,</text>
+  <text x="48" y="212" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#047857">  HR forms, invoices, landlord leases</text>
+  <text x="48" y="236" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#475569">Tools: Acrobat Reader, Mac Preview, iOS Markup</text>
+
+  <rect x="392" y="64" width="338" height="202" rx="10" fill="#ecfdf5" stroke="#047857" stroke-width="2"/>
+  <text x="410" y="94" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#065f46">2. Certificate Digital Signature</text>
+  <text x="410" y="122" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#0f172a">• What it is: Cryptographic PKI certificate</text>
+  <text x="410" y="142" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#0f172a">  that locks the PDF against tampering</text>
+  <text x="410" y="162" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#0f172a">  (shows "Signature Valid" in Acrobat)</text>
+  <text x="410" y="192" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#065f46">• Required for: MCA21 company filings,</text>
+  <text x="410" y="212" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#065f46">  GST/Income Tax, e-Tenders, e-Aadhaar</text>
+  <text x="410" y="236" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#475569">Tools: Class 3 USB DSC Token or Aadhaar eSign</text>
+</svg>

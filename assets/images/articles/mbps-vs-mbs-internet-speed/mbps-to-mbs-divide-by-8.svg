@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="285" viewBox="0 0 760 285" role="img" aria-labelledby="mbps-title mbps-desc">
+  <title id="mbps-title">How to Convert Internet Speed in Mbps to Download Speed in MB/s</title>
+  <desc id="mbps-desc">Diagram showing 8 bits = 1 Byte, so 100 Mbps divided by 8 equals 12.5 MB/s maximum theoretical download speed.</desc>
+  <rect width="760" height="285" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="30" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Why a "100 Mbps" Plan Downloads Files at ~11–12.5 MB/s</text>
+
+  <rect x="30" y="66" width="240" height="190" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="48" y="98" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#475569">ISP Plan Speed (lowercase "b")</text>
+  <text x="48" y="138" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="32" font-weight="700" fill="#0f172a">100 Mbps</text>
+  <text x="48" y="168" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#475569">100 Megabits per second</text>
+  <text x="48" y="218" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#047857">Used by ISPs &amp; Speed Tests</text>
+
+  <rect x="292" y="112" width="176" height="96" rx="10" fill="#ecfdf5" stroke="#047857" stroke-width="2"/>
+  <text x="314" y="150" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="700" fill="#065f46">Divide by 8</text>
+  <text x="314" y="176" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#0f172a">(8 bits = 1 Byte)</text>
+
+  <rect x="490" y="66" width="240" height="190" rx="10" fill="#ffffff" stroke="#047857" stroke-width="2"/>
+  <text x="508" y="98" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#065f46">Browser Download (CAPITAL "B")</text>
+  <text x="508" y="138" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="32" font-weight="700" fill="#047857">12.5 MB/s</text>
+  <text x="508" y="168" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#475569">12.5 Megabytes per second</text>
+  <text x="508" y="218" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#065f46">Used by Chrome, Steam &amp; Files</text>
+</svg>

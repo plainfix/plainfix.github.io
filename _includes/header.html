@@ -1,0 +1,70 @@
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="site-brand" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} — Home">
+      <svg class="brand-mark" width="28" height="28" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+        <rect width="32" height="32" rx="7" fill="#047857"/>
+        <path d="M9 10h9.5a4.5 4.5 0 0 1 0 9H13v5H9V10zm4 3.5v2h5a1 1 0 0 0 0-2h-5z" fill="#ffffff"/>
+        <circle cx="22.5" cy="21.5" r="2.5" fill="#a7f3d0"/>
+      </svg>
+      <span class="brand-name">{{ site.title }}</span>
+    </a>
+
+    <button
+      type="button"
+      class="menu-toggle"
+      id="menu-toggle"
+      aria-expanded="false"
+      aria-controls="primary-nav-panel"
+      aria-label="Toggle navigation menu">
+      <svg class="icon-menu" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+        <line x1="3" y1="6" x2="21" y2="6"></line>
+        <line x1="3" y1="12" x2="21" y2="12"></line>
+        <line x1="3" y1="18" x2="21" y2="18"></line>
+      </svg>
+      <span class="menu-toggle-label">Menu</span>
+    </button>
+
+    <div class="nav-panel" id="primary-nav-panel">
+      <nav class="primary-nav" aria-label="Primary">
+        <ul class="nav-list">
+          {% for item in site.data.navigation.header %}
+          {% assign is_active = false %}
+          {% if page.url == item.url %}
+            {% assign is_active = true %}
+          {% elsif item.url == "/blog/" and (page.url contains "/blog/" or page.layout == "post") %}
+            {% assign is_active = true %}
+          {% elsif item.url == "/category/" and page.url contains "/category/" %}
+            {% assign is_active = true %}
+          {% endif %}
+          <li>
+            <a href="{{ item.url | relative_url }}" class="nav-link"{% if is_active %} aria-current="page"{% endif %}>{{ item.title }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </nav>
+
+      <div class="header-search-wrap">
+        <form class="header-search-form" action="{{ '/search/' | relative_url }}" method="get" role="search">
+          <label for="header-search-input" class="sr-only">Search guides</label>
+          <input
+            type="search"
+            id="header-search-input"
+            name="q"
+            class="header-search-input"
+            placeholder="Search guides…"
+            autocomplete="off"
+            aria-autocomplete="list"
+            aria-controls="header-search-results"
+            aria-expanded="false">
+          <button type="submit" class="header-search-btn" aria-label="Submit search">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+          </button>
+        </form>
+        <div id="header-search-results" class="header-search-dropdown" role="listbox" aria-label="Search suggestions" hidden></div>
+      </div>
+    </div>
+  </div>
+</header>

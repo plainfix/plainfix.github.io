@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="295" viewBox="0 0 760 295" role="img" aria-labelledby="ph-clean-title ph-clean-desc">
+  <title id="ph-clean-title">Six-Step Safe Phone Storage Cleanup Order for Android and iPhone</title>
+  <desc id="ph-clean-desc">Safe sequence: 1. Verify backup, 2. Delete large videos and Recently Deleted bin, 3. Clean WhatsApp/Telegram media inside app settings, 4. Clear browser/streaming caches, 5. Empty Downloads folder, 6. Offload unused apps.</desc>
+  <rect width="760" height="295" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="30" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Safe Phone Storage Cleanup Sequence (Highest Impact First)</text>
+
+  <rect x="30" y="64" width="220" height="96" rx="10" fill="#ffffff" stroke="#047857" stroke-width="2"/>
+  <text x="46" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#065f46">1. Verify Backups First</text>
+  <text x="46" y="116" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">Copy irreplaceable family</text>
+  <text x="46" y="136" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">videos to PC or drive.</text>
+
+  <rect x="270" y="64" width="220" height="96" rx="10" fill="#ffffff" stroke="#047857" stroke-width="2"/>
+  <text x="286" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#065f46">2. Sort Videos by Size</text>
+  <text x="286" y="116" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">Delete old 4K clips, then</text>
+  <text x="286" y="136" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#b91c1c" font-weight="600">empty "Recently Deleted".</text>
+
+  <rect x="510" y="64" width="220" height="96" rx="10" fill="#ffffff" stroke="#047857" stroke-width="2"/>
+  <text x="526" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#065f46">3. Chat App Storage</text>
+  <text x="526" y="116" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">Use WhatsApp → Manage</text>
+  <text x="526" y="136" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">Storage (&gt;5 MB forwards).</text>
+
+  <rect x="30" y="176" width="220" height="96" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="46" y="204" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#0f172a">4. Offline Downloads</text>
+  <text x="46" y="228" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">Clear watched YouTube,</text>
+  <text x="46" y="248" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">Netflix &amp; Spotify episodes.</text>
+
+  <rect x="270" y="176" width="220" height="96" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="286" y="204" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#0f172a">5. Downloads Folder</text>
+  <text x="286" y="228" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">Delete duplicate PDFs, ZIPs,</text>
+  <text x="286" y="248" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">and old installer files.</text>
+
+  <rect x="510" y="176" width="220" height="96" rx="10" fill="#ecfdf5" stroke="#047857" stroke-width="2"/>
+  <text x="526" y="204" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#065f46">6. Offload / Clear Cache</text>
+  <text x="526" y="228" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#0f172a">Clear Cache (never Clear</text>
+  <text x="526" y="248" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#0f172a">Data!) &amp; offload heavy games.</text>
+</svg>

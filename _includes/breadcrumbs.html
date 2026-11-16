@@ -1,0 +1,26 @@
+{% if page.url != "/" %}
+{% assign cat_obj = site.data.categories | where: "slug", page.category | first %}
+{% if page.layout == "category" %}
+  {% assign cat_obj = site.data.categories | where: "slug", page.category_slug | first %}
+{% endif %}
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+  <ol class="breadcrumb-list">
+    <li class="breadcrumb-item">
+      <a href="{{ '/' | relative_url }}">Home</a>
+    </li>
+    {% if page.layout == "post" and cat_obj %}
+    <li class="breadcrumb-item">
+      <a href="{{ '/category/' | append: cat_obj.slug | append: '/' | relative_url }}">{{ cat_obj.name }}</a>
+    </li>
+    <li class="breadcrumb-item" aria-current="page">{{ page.title }}</li>
+    {% elsif page.layout == "category" and cat_obj %}
+    <li class="breadcrumb-item">
+      <a href="{{ '/category/' | relative_url }}">Categories</a>
+    </li>
+    <li class="breadcrumb-item" aria-current="page">{{ cat_obj.name }}</li>
+    {% else %}
+    <li class="breadcrumb-item" aria-current="page">{{ page.title }}</li>
+    {% endif %}
+  </ol>
+</nav>
+{% endif %}

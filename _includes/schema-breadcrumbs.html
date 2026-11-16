@@ -1,0 +1,50 @@
+{% if page.url != "/" and page.url != "/404.html" %}
+{% assign cat_obj = site.data.categories | where: "slug", page.category | first %}
+{% if page.layout == "category" %}
+  {% assign cat_obj = site.data.categories | where: "slug", page.category_slug | first %}
+{% endif %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": {{ '/' | absolute_url | jsonify }}
+    }{% if page.layout == "post" and cat_obj %},
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": {{ cat_obj.name | jsonify }},
+      "item": {{ '/category/' | append: cat_obj.slug | append: '/' | absolute_url | jsonify }}
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": {{ page.title | jsonify }},
+      "item": {{ page.url | absolute_url | jsonify }}
+    }{% elsif page.layout == "category" and cat_obj %},
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Categories",
+      "item": {{ '/category/' | absolute_url | jsonify }}
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": {{ cat_obj.name | jsonify }},
+      "item": {{ page.url | absolute_url | jsonify }}
+    }{% else %},
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": {{ page.title | default: site.title | jsonify }},
+      "item": {{ page.url | absolute_url | jsonify }}
+    }{% endif %}
+  ]
+}
+</script>
+{% endif %}

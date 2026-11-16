@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300" role="img" aria-labelledby="ai-photo-title ai-photo-desc">
+  <title id="ai-photo-title">Layered Verification Workflow to Check If an Image Is AI-Generated</title>
+  <desc id="ai-photo-desc">Four layers of verification: Layer 1 C2PA Content Credentials and SynthID watermark check, Layer 2 Reverse image search and source history, Layer 3 EXIF metadata check, Layer 4 Visual physics and text inspection.</desc>
+  <rect width="760" height="300" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="30" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Layered Method to Verify Whether an Image Is AI-Generated</text>
+
+  <rect x="30" y="62" width="700" height="46" rx="8" fill="#ecfdf5" stroke="#047857" stroke-width="2"/>
+  <text x="48" y="90" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#065f46">Layer 1: Provenance &amp; Watermarks — C2PA Content Credentials + Google SynthID</text>
+
+  <rect x="30" y="120" width="700" height="46" rx="8" fill="#ffffff" stroke="#047857" stroke-width="2"/>
+  <text x="48" y="148" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#0f172a">Layer 2: Reverse Image Search — Earliest appearance date, original photographer, news wire match</text>
+
+  <rect x="30" y="178" width="700" height="46" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="48" y="206" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#0f172a">Layer 3: File Metadata (EXIF/IPTC) — Camera lens data vs AI software tags (often stripped by social apps)</text>
+
+  <rect x="30" y="236" width="700" height="46" rx="8" fill="#fffbeb" stroke="#f59e0b" stroke-width="2"/>
+  <text x="48" y="264" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#92400e">Layer 4: Visual Consistency — Background signage text, reflections, shadows, and uniform textures</text>
+</svg>

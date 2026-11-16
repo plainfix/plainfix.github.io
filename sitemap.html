@@ -1,0 +1,42 @@
+---
+layout: page
+title: "HTML Sitemap: All Categories, Guides & Policies"
+description: "Complete HTML sitemap listing every topic category, published step-by-step tech guide, and editorial or legal policy page available on Plainfix."
+lead: "Browse every category, published guide, and policy page on Plainfix from a single directory."
+permalink: /sitemap.html
+---
+{% assign pub_posts = site.posts | where_exp: "p", "p.published != false" %}
+
+<h2>Main Pages &amp; Policies</h2>
+<ul>
+  <li><a href="{{ '/' | relative_url }}">Home</a></li>
+  <li><a href="{{ '/blog/' | relative_url }}">All Guides</a></li>
+  <li><a href="{{ '/category/' | relative_url }}">All Categories</a></li>
+  <li><a href="{{ '/about/' | relative_url }}">About Plainfix</a></li>
+  <li><a href="{{ '/editorial-policy/' | relative_url }}">Editorial Policy, Fact-Checking &amp; Link Disclosure</a></li>
+  <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+  <li><a href="{{ '/privacy/' | relative_url }}">Privacy Policy</a></li>
+  <li><a href="{{ '/terms/' | relative_url }}">Terms of Use</a></li>
+  <li><a href="{{ '/disclaimer/' | relative_url }}">Disclaimer</a></li>
+  <li><a href="{{ '/feed.xml' | relative_url }}">RSS Feed (XML)</a></li>
+  <li><a href="{{ '/sitemap.xml' | relative_url }}">XML Sitemap</a></li>
+</ul>
+
+<h2>Categories &amp; Published Guides</h2>
+{% for cat in site.data.categories %}
+  {% assign cat_posts = site.categories[cat.slug] | where_exp: "p", "p.published != false" %}
+  <h3><a href="{{ '/category/' | append: cat.slug | append: '/' | relative_url }}">{{ cat.name }}</a></h3>
+  <p>{{ cat.description }}</p>
+  {% if cat_posts and cat_posts.size > 0 %}
+  <ul>
+    {% for post in cat_posts %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <small>({{ post.date | date: "%b %-d, %Y" }})</small>
+    </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <p><em>No published guides in this category yet.</em></p>
+  {% endif %}
+{% endfor %}

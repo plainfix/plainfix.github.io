@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="og-title og-desc">
+  <title id="og-title">Plainfix — Clear, tested guides for everyday tech problems</title>
+  <desc id="og-desc">Step-by-step tech how-to guides for online safety, privacy, photos, PDFs, phones, and data tools.</desc>
+  <rect width="1200" height="630" fill="#f8fafc"/>
+  <rect x="48" y="48" width="1104" height="534" rx="20" fill="#ffffff" stroke="#e2e8f0" stroke-width="3"/>
+  <rect x="48" y="48" width="16" height="534" rx="8" fill="#047857"/>
+  <g transform="translate(116, 130)">
+    <rect width="72" height="72" rx="16" fill="#047857"/>
+    <path d="M20 22h21.5a10 10 0 0 1 0 20H29v12h-9V22zm9 8v4.5h11.5a2.25 2.25 0 0 0 0-4.5H29z" fill="#ffffff"/>
+    <circle cx="51" cy="48.5" r="5.5" fill="#a7f3d0"/>
+    <text x="96" y="50" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif" font-size="46" font-weight="700" fill="#0f172a">Plainfix</text>
+  </g>
+  <text x="116" y="295" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif" font-size="52" font-weight="700" fill="#0f172a">Clear, tested guides for</text>
+  <text x="116" y="362" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif" font-size="52" font-weight="700" fill="#047857">everyday tech problems</text>
+  <text x="116" y="438" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif" font-size="26" fill="#475569">Online Safety · Privacy &amp; AI · Photos · PDFs · Phone Fixes · Text &amp; Data</text>
+  <text x="116" y="515" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif" font-size="22" font-weight="600" fill="#065f46">plainfix.github.io</text>
+</svg>

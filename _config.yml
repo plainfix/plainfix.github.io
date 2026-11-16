@@ -1,0 +1,58 @@
+title: "Plainfix"
+tagline: "Clear, tested guides for everyday tech problems"
+description: "Clear, tested guides for everyday tech problems with photos, PDFs, phones, online safety, privacy, and developer data tools in plain English."
+url: "https://plainfix.github.io"
+baseurl: ""
+lang: "en"
+timezone: "Asia/Kolkata"
+
+author:
+  name: "Sebi Bano"
+  bio: "Sebi Bano writes step-by-step guides that fix everyday tech problems with photos, PDFs, phones and online safety. Every guide is checked against official documentation before it is published."
+
+logo: "/favicon.svg"
+
+permalink: /guides/:title/
+future: true
+paginate: 12
+paginate_path: "/blog/page:num/"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  toc_levels: 2..3
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
+
+# TODO: Add Google Search Console verification code after creating the URL-prefix property for https://plainfix.github.io/
+webmaster_verifications:
+  google: ""
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "main"
+      image: "/assets/images/og-default.png"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      image: "/assets/images/og-default.png"
+
+exclude:
+  - README.md
+  - PROJECT_STATE.md
+  - BACKLINK_AUDIT.md
+  - tools
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules

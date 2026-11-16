@@ -1,0 +1,40 @@
+{% assign c_type = include.type | default: "note" %}
+{% assign c_body = include.text | default: include.content %}
+{% if include.title %}
+  {% assign c_title = include.title %}
+{% elsif c_type == "warning" %}
+  {% assign c_title = "Warning" %}
+{% elsif c_type == "danger" %}
+  {% assign c_title = "Important Safety Note" %}
+{% elsif c_type == "tip" %}
+  {% assign c_title = "Tip" %}
+{% else %}
+  {% assign c_title = "Note" %}
+{% endif %}
+<aside class="callout callout-{{ c_type }}" aria-label="{{ c_title }}">
+  <div class="callout-header">
+    {% if c_type == "warning" or c_type == "danger" %}
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path>
+      <line x1="12" y1="9" x2="12" y2="13"></line>
+      <line x1="12" y1="17" x2="12.01" y2="17"></line>
+    </svg>
+    {% elsif c_type == "tip" %}
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <circle cx="12" cy="12" r="10"></circle>
+      <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+      <line x1="12" y1="17" x2="12.01" y2="17"></line>
+    </svg>
+    {% else %}
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <circle cx="12" cy="12" r="10"></circle>
+      <line x1="12" y1="16" x2="12" y2="12"></line>
+      <line x1="12" y1="8" x2="12.01" y2="8"></line>
+    </svg>
+    {% endif %}
+    <strong class="callout-title">{{ c_title }}</strong>
+  </div>
+  <div class="callout-body">
+    {{ c_body | markdownify }}
+  </div>
+</aside>

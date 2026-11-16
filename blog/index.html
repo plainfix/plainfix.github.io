@@ -1,0 +1,51 @@
+---
+layout: default
+title: "All Tech How-To Guides and Step-by-Step Fixes"
+description: "Browse all step-by-step tech how-to guides on Plainfix covering online safety, privacy, photo resizing, PDF tools, phone storage, and data formatting."
+---
+{% assign posts_list = paginator.posts | default: site.posts %}
+{% assign visible_posts = posts_list | where_exp: "p", "p.published != false" %}
+
+<div class="container page-container">
+  {% include breadcrumbs.html %}
+
+  <header class="category-header">
+    <span class="category-header-badge">All Guides</span>
+    <h1 class="page-title">{{ page.title }}</h1>
+    <p class="page-lead">{{ page.description }}</p>
+  </header>
+
+  {% if visible_posts and visible_posts.size > 0 %}
+  <div class="card-grid">
+    {% for post in visible_posts %}
+      {% include article-card.html post=post heading_level="h2" %}
+    {% endfor %}
+  </div>
+  {% else %}
+  <div class="empty-state">
+    <p>Published step-by-step guides will be listed here once the launch batch goes live. Browse by topic in <a href="{{ '/category/' | relative_url }}">Categories</a>.</p>
+  </div>
+  {% endif %}
+
+  {% if paginator and paginator.total_pages > 1 %}
+  <nav class="pagination" aria-label="Pagination">
+    {% if paginator.previous_page %}
+    <a class="page-link" href="{{ paginator.previous_page_path | relative_url }}" aria-label="Previous page">&larr; Prev</a>
+    {% endif %}
+
+    {% for page_num in (1..paginator.total_pages) %}
+      {% if page_num == paginator.page %}
+      <span class="page-link" aria-current="page">{{ page_num }}</span>
+      {% elsif page_num == 1 %}
+      <a class="page-link" href="{{ '/blog/' | relative_url }}">{{ page_num }}</a>
+      {% else %}
+      <a class="page-link" href="{{ site.paginate_path | replace: ':num', page_num | relative_url }}">{{ page_num }}</a>
+      {% endif %}
+    {% endfor %}
+
+    {% if paginator.next_page %}
+    <a class="page-link" href="{{ paginator.next_page_path | relative_url }}" aria-label="Next page">Next &rarr;</a>
+    {% endif %}
+  </nav>
+  {% endif %}
+</div>

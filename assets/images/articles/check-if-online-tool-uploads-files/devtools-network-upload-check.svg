@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="290" viewBox="0 0 760 290" role="img" aria-labelledby="net-tab-title net-tab-desc">
+  <title id="net-tab-title">How to Use the Browser DevTools Network Tab to Check If a Tool Uploads Your File</title>
+  <desc id="net-tab-desc">Comparison of local in-browser processing (0 network requests or small KB analytics beacons) versus remote server upload (large multi-megabyte POST/PUT request matching file size).</desc>
+  <rect width="760" height="290" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="30" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#0f172a">What DevTools Network Tab (`F12`) Shows When You Process a 5 MB File</text>
+
+  <rect x="30" y="64" width="338" height="196" rx="10" fill="#ecfdf5" stroke="#047857" stroke-width="2"/>
+  <text x="48" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#065f46">Case A: Processed Locally in Browser</text>
+  <text x="48" y="120" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#0f172a">Method | Status | Type  | Size</text>
+  <text x="48" y="142" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#065f46">(0 requests sent — or 1 KB beacon)</text>
+  <text x="48" y="176" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#0f172a">• Works even with Wi-Fi turned OFF</text>
+  <text x="48" y="198" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#0f172a">• Uses WebAssembly / HTML5 Canvas</text>
+  <text x="48" y="220" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#065f46" font-weight="600">• Download URL starts with blob: or data:</text>
+
+  <rect x="392" y="64" width="338" height="196" rx="10" fill="#fffbeb" stroke="#f59e0b" stroke-width="2"/>
+  <text x="410" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#92400e">Case B: Uploaded to Remote Server</text>
+  <text x="410" y="120" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#0f172a">Method | Status | Type  | Payload</text>
+  <text x="410" y="142" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#b91c1c">POST   | 200    | fetch | 5.1 MB</text>
+  <text x="410" y="176" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#0f172a">• Fails immediately if Wi-Fi is OFF</text>
+  <text x="410" y="198" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#0f172a">• Request Payload shows multipart file</text>
+  <text x="410" y="220" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#92400e" font-weight="600">• Check server retention &amp; privacy policy</text>
+</svg>

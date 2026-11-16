@@ -1,0 +1,22 @@
+{% assign post = include.post %}
+{% assign heading_tag = include.heading_level | default: "h3" %}
+{% assign cat_obj = site.data.categories | where: "slug", post.category | first %}
+{% assign words = post.content | strip_html | number_of_words %}
+{% assign read_mins = words | plus: 199 | divided_by: 200 %}
+{% if read_mins < 1 %}{% assign read_mins = 1 %}{% endif %}
+<article class="article-card">
+  <div class="article-card-top">
+    {% if cat_obj %}
+    <a class="category-chip" href="{{ '/category/' | append: cat_obj.slug | append: '/' | relative_url }}">{{ cat_obj.short_name | default: cat_obj.name }}</a>
+    {% endif %}
+    <span class="article-card-meta">
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+      <span aria-hidden="true">&middot;</span>
+      <span>{{ read_mins }} min read</span>
+    </span>
+  </div>
+  <{{ heading_tag }} class="article-card-title">
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+  </{{ heading_tag }}>
+  <p class="article-card-desc">{{ post.description }}</p>
+</article>

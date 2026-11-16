@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="285" viewBox="0 0 760 285" role="img" aria-labelledby="leak-fix-title leak-fix-desc">
+  <title id="leak-fix-title">Priority Recovery Order After an Email or Password Breach</title>
+  <desc id="leak-fix-desc">Four-step priority order: 1. Secure primary email first, 2. Change reused passwords on banking and shopping accounts, 3. Enable passkeys or 2FA, 4. Revoke active sessions and check email forwarding rules.</desc>
+  <rect width="760" height="285" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="30" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Exact Priority Order to Secure Your Accounts After a Breach</text>
+
+  <rect x="28" y="64" width="164" height="192" rx="10" fill="#ffffff" stroke="#b91c1c" stroke-width="2"/>
+  <text x="44" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#b91c1c">PRIORITY 1</text>
+  <text x="44" y="116" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="700" fill="#0f172a">Primary Email</text>
+  <text x="44" y="142" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">Your email receives</text>
+  <text x="44" y="162" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">every password reset</text>
+  <text x="44" y="182" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">link. Secure it and</text>
+  <text x="44" y="202" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">check forwarding rules</text>
+  <text x="44" y="222" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">first.</text>
+
+  <rect x="208" y="64" width="164" height="192" rx="10" fill="#ffffff" stroke="#047857" stroke-width="2"/>
+  <text x="224" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#047857">PRIORITY 2</text>
+  <text x="224" y="116" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="700" fill="#0f172a">Reused Passwords</text>
+  <text x="224" y="142" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">Replace any account</text>
+  <text x="224" y="162" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">that shared the leaked</text>
+  <text x="224" y="182" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">password—starting</text>
+  <text x="224" y="202" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">with banks, shopping,</text>
+  <text x="224" y="222" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">and cloud drives.</text>
+
+  <rect x="388" y="64" width="164" height="192" rx="10" fill="#ffffff" stroke="#047857" stroke-width="2"/>
+  <text x="404" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#047857">PRIORITY 3</text>
+  <text x="404" y="116" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="700" fill="#0f172a">Passkeys &amp; 2FA</text>
+  <text x="404" y="142" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">Enable passkeys or</text>
+  <text x="404" y="162" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">an authenticator app</text>
+  <text x="404" y="182" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">so a stolen password</text>
+  <text x="404" y="202" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">alone can never log</text>
+  <text x="404" y="222" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">anyone in.</text>
+
+  <rect x="568" y="64" width="164" height="192" rx="10" fill="#ffffff" stroke="#047857" stroke-width="2"/>
+  <text x="584" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#047857">PRIORITY 4</text>
+  <text x="584" y="116" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="700" fill="#0f172a">Revoke Sessions</text>
+  <text x="584" y="142" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">Click "Sign out of all</text>
+  <text x="584" y="162" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">other devices" and</text>
+  <text x="584" y="182" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">verify your recovery</text>
+  <text x="584" y="202" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">phone and recovery</text>
+  <text x="584" y="222" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">email address.</text>
+</svg>

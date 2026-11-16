@@ -1,0 +1,48 @@
+---
+layout: default
+title: "Page Not Found (404)"
+description: "The requested page could not be found on Plainfix. Search our step-by-step tech guides or browse by category to find the solution you are looking for."
+permalink: /404.html
+sitemap: false
+noindex: true
+---
+{% assign pub_posts = site.posts | where_exp: "p", "p.published != false" %}
+
+<div class="container page-container">
+  <header class="category-header">
+    <span class="category-header-badge">Error 404</span>
+    <h1 class="page-title">Page Not Found</h1>
+    <p class="page-lead">The link you followed may be broken, or the guide may have moved. Search below or pick a category to find what you need.</p>
+  </header>
+
+  <section class="widget-box" aria-label="Search Plainfix">
+    <form class="home-search-form" action="{{ '/search/' | relative_url }}" method="get" role="search">
+      <label for="error-search-input" class="sr-only">Search guides</label>
+      <input type="search" id="error-search-input" name="q" class="home-search-input" placeholder="Search for a topic (e.g. HEIC, PDF size, QR code, passkeys)…">
+      <button type="submit" class="btn-primary">Search Guides</button>
+    </form>
+  </section>
+
+  {% if pub_posts and pub_posts.size > 0 %}
+  <section class="home-section" aria-labelledby="popular-404-heading">
+    <h2 id="popular-404-heading" class="section-heading">Latest Published Guides</h2>
+    <div class="card-grid card-grid-spaced">
+      {% for post in pub_posts limit: 6 %}
+        {% include article-card.html post=post heading_level="h3" %}
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  <section class="other-categories-section" aria-labelledby="cats-404-heading">
+    <h2 id="cats-404-heading" class="section-heading">Browse by Category</h2>
+    <div class="category-grid-compact">
+      {% for cat in site.data.categories %}
+      <a class="category-mini-card" href="{{ '/category/' | append: cat.slug | append: '/' | relative_url }}">
+        <strong>{{ cat.name }}</strong>
+        <span>{{ cat.description | truncate: 90 }}</span>
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+</div>

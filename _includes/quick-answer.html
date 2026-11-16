@@ -1,0 +1,13 @@
+{% assign qa_title = include.title | default: "Quick Answer" %}
+{% assign qa_body = include.text | default: include.content %}
+<aside class="quick-answer" aria-label="Quick answer">
+  <div class="quick-answer-header">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <polyline points="20 6 9 17 4 12"></polyline>
+    </svg>
+    <strong class="quick-answer-title">{{ qa_title }}</strong>
+  </div>
+  <div class="quick-answer-body">
+    {{ qa_body | markdownify }}
+  </div>
+</aside>

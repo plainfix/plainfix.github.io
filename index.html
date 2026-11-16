@@ -1,0 +1,113 @@
+---
+layout: home
+title: "Plainfix — Clear, Tested Guides for Everyday Tech Problems"
+description: "Step-by-step tech troubleshooting guides for online safety, privacy, photos, PDFs, phone fixes, and developer data tasks checked against official docs."
+---
+{% assign pub_posts = site.posts | where_exp: "p", "p.published != false" %}
+{% assign start_slugs = "check-qr-code-before-scanning,resize-photo-signature-exact-kb,compress-pdf-under-size-limit,google-storage-full-fix,check-if-photo-is-ai-generated,fix-invalid-json-errors" | split: "," %}
+
+<section class="home-hero" aria-labelledby="home-hero-heading">
+  <div class="container">
+    <div class="home-hero-inner">
+      <span class="home-eyebrow">Practical Tech Reference</span>
+      <h1 id="home-hero-heading" class="home-title">{{ site.tagline }}</h1>
+      <p class="home-subtitle">Focused, step-by-step solutions for online safety, photos, PDFs, phone storage, and everyday data tasks—checked against official documentation before publishing.</p>
+      <form class="home-search-form" action="{{ '/search/' | relative_url }}" method="get" role="search">
+        <label for="home-search-input" class="sr-only">Search guides</label>
+        <input type="search" id="home-search-input" name="q" class="home-search-input" placeholder="Search a problem (e.g. HEIC to JPG, 200 KB PDF, QR scam)…">
+        <button type="submit" class="btn-primary">Search Guides</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<div class="container">
+  <section class="home-section" aria-labelledby="categories-heading">
+    <div class="section-header-row">
+      <h2 id="categories-heading" class="section-heading">Browse by Category</h2>
+      <a class="section-link" href="{{ '/category/' | relative_url }}">All 6 categories &rarr;</a>
+    </div>
+    <div class="category-grid">
+      {% for cat in site.data.categories %}
+      {% assign cat_posts = site.categories[cat.slug] | where_exp: "p", "p.published != false" %}
+      <a class="category-card" href="{{ '/category/' | append: cat.slug | append: '/' | relative_url }}">
+        <span class="category-card-icon" aria-hidden="true">
+          {% if cat.icon == "shield" %}
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+          {% elsif cat.icon == "lock" %}
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+          {% elsif cat.icon == "image" %}
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
+          {% elsif cat.icon == "file-text" %}
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
+          {% elsif cat.icon == "smartphone" %}
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
+          {% else %}
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+          {% endif %}
+        </span>
+        <h3 class="category-card-title">{{ cat.name }}</h3>
+        <p class="category-card-desc">{{ cat.description }}</p>
+        <span class="category-card-count">
+          {% if cat_posts and cat_posts.size > 0 %}
+            {{ cat_posts.size }} {% if cat_posts.size == 1 %}guide{% else %}guides{% endif %} &rarr;
+          {% else %}
+            Explore category &rarr;
+          {% endif %}
+        </span>
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="home-section" aria-labelledby="start-here-heading">
+    <div class="section-header-row">
+      <h2 id="start-here-heading" class="section-heading">Start Here: Essential Fixes</h2>
+      <a class="section-link" href="{{ '/blog/' | relative_url }}">Browse all guides &rarr;</a>
+    </div>
+    {% assign start_count = 0 %}
+    {% capture start_cards %}
+      {% for s_slug in start_slugs %}
+        {% assign s_post = pub_posts | where: "slug", s_slug | first %}
+        {% if s_post %}
+          {% include article-card.html post=s_post heading_level="h3" %}
+          {% assign start_count = start_count | plus: 1 %}
+        {% endif %}
+      {% endfor %}
+    {% endcapture %}
+    {% if start_count > 0 %}
+    <div class="card-grid">
+      {{ start_cards }}
+    </div>
+    {% else %}
+    <div class="empty-state">
+      <p>Essential launch guides across all six categories will appear here as soon as they are published. Meanwhile, explore our <a href="{{ '/category/' | relative_url }}">topic categories</a> or read our <a href="{{ '/editorial-policy/' | relative_url }}">editorial policy</a>.</p>
+    </div>
+    {% endif %}
+  </section>
+
+  {% if pub_posts and pub_posts.size > 0 %}
+  <section class="home-section" aria-labelledby="featured-guides-heading">
+    <div class="section-header-row">
+      <h2 id="featured-guides-heading" class="section-heading">Featured Guides</h2>
+    </div>
+    <div class="card-grid">
+      {% for post in pub_posts limit: 6 %}
+        {% include article-card.html post=post heading_level="h3" %}
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="home-section" aria-labelledby="latest-guides-heading">
+    <div class="section-header-row">
+      <h2 id="latest-guides-heading" class="section-heading">Latest Guides</h2>
+      <a class="section-link" href="{{ '/blog/' | relative_url }}">View archive &rarr;</a>
+    </div>
+    <div class="card-grid">
+      {% for post in pub_posts limit: 9 %}
+        {% include article-card.html post=post heading_level="h3" %}
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+</div>

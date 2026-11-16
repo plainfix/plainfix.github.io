@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300" role="img" aria-labelledby="da-title da-desc">
+  <title id="da-title">First-Hour Action Plan for Digital Arrest or UPI Fraud Calls in India</title>
+  <desc id="da-desc">Four steps in the first hour: Step 1 Disconnect call immediately, Step 2 Call 1930 helpline, Step 3 File complaint on cybercrime.gov.in, Step 4 Alert your bank fraud desk.</desc>
+  <rect width="760" height="300" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="30" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#0f172a">First-Hour Response Plan (Golden Hour for Fraud Reporting)</text>
+
+  <rect x="28" y="66" width="162" height="202" rx="10" fill="#ffffff" stroke="#b91c1c" stroke-width="2"/>
+  <text x="44" y="96" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#b91c1c">MINUTE 0–2</text>
+  <text x="44" y="122" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#0f172a">1. Hang Up</text>
+  <text x="44" y="146" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">End the video/voice</text>
+  <text x="44" y="166" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">call at once. Real</text>
+  <text x="44" y="186" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">police never arrest</text>
+  <text x="44" y="206" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">anyone on WhatsApp</text>
+  <text x="44" y="226" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">or Skype.</text>
+
+  <rect x="208" y="66" width="162" height="202" rx="10" fill="#ffffff" stroke="#047857" stroke-width="2"/>
+  <text x="224" y="96" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#047857">MINUTE 2–15</text>
+  <text x="224" y="122" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#0f172a">2. Dial 1930</text>
+  <text x="224" y="146" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">If money was sent,</text>
+  <text x="224" y="166" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">call the National</text>
+  <text x="224" y="186" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">Cyber Crime Helpline</text>
+  <text x="224" y="206" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">(1930) to freeze the</text>
+  <text x="224" y="226" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">recipient transfer.</text>
+
+  <rect x="388" y="66" width="162" height="202" rx="10" fill="#ffffff" stroke="#047857" stroke-width="2"/>
+  <text x="404" y="96" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#047857">MINUTE 15–35</text>
+  <text x="404" y="122" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#0f172a">3. File Online</text>
+  <text x="404" y="146" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">Log the UTR/reference</text>
+  <text x="404" y="166" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">number &amp; screenshots</text>
+  <text x="404" y="186" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">on official portal</text>
+  <text x="404" y="206" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#065f46">cybercrime.gov.in</text>
+  <text x="404" y="226" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">or Chakshu (if no loss).</text>
+
+  <rect x="568" y="66" width="164" height="202" rx="10" fill="#ffffff" stroke="#047857" stroke-width="2"/>
+  <text x="584" y="96" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#047857">MINUTE 35–60</text>
+  <text x="584" y="122" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#0f172a">4. Alert Bank</text>
+  <text x="584" y="146" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">Call the official</text>
+  <text x="584" y="166" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">number on the back</text>
+  <text x="584" y="186" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">of your debit card</text>
+  <text x="584" y="206" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">to block compromised</text>
+  <text x="584" y="226" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">UPI IDs or cards.</text>
+</svg>

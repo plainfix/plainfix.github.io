@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="295" viewBox="0 0 760 295" role="img" aria-labelledby="json-err-title json-err-desc">
+  <title id="json-err-title">Five Common Syntax Mistakes That Break Valid JSON (RFC 8259)</title>
+  <desc id="json-err-desc">Side-by-side comparison of invalid JSON with comments, unquoted keys, single quotes, and trailing commas versus valid RFC 8259 JSON.</desc>
+  <rect width="760" height="295" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="30" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Why JSON Parsers Reject JavaScript-Style Objects &amp; AI Output</text>
+
+  <rect x="30" y="64" width="338" height="202" rx="10" fill="#fef2f2" stroke="#b91c1c" stroke-width="2"/>
+  <text x="48" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#b91c1c">Invalid JSON (Fails JSON.parse)</text>
+  <text x="48" y="120" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#0f172a">```json   &lt;-- Markdown fence</text>
+  <text x="48" y="142" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#0f172a">{</text>
+  <text x="48" y="164" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#b91c1c">  // comment not allowed</text>
+  <text x="48" y="186" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#b91c1c">  status: 'active', &lt;-- single quotes</text>
+  <text x="48" y="208" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#b91c1c">  "score": NaN,     &lt;-- trailing comma</text>
+  <text x="48" y="230" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#0f172a">}</text>
+
+  <rect x="392" y="64" width="338" height="202" rx="10" fill="#ecfdf5" stroke="#047857" stroke-width="2"/>
+  <text x="410" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#065f46">Valid JSON (RFC 8259 Compliant)</text>
+  <text x="410" y="124" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#0f172a">{</text>
+  <text x="410" y="150" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#065f46">  "status": "active",</text>
+  <text x="410" y="176" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#065f46">  "score": null</text>
+  <text x="410" y="202" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#0f172a">}</text>
+  <text x="410" y="236" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#065f46">Double quotes only · No trailing commas</text>
+</svg>

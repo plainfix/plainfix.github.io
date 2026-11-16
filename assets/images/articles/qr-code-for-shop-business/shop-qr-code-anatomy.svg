@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="295" viewBox="0 0 760 295" role="img" aria-labelledby="shop-qr-title shop-qr-desc">
+  <title id="shop-qr-title">Anatomy of a Scannable Shop QR Code: Quiet Zone, Contrast, and Sizing</title>
+  <desc id="shop-qr-desc">Diagram showing the 4-module white quiet zone margin around a QR code, high-contrast dark modules on white background, and the 10:1 distance-to-size rule of thumb.</desc>
+  <rect width="760" height="295" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="30" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#0f172a">What Makes a Printed Shop QR Code Scan Instantly</text>
+
+  <!-- Left QR illustration -->
+  <rect x="36" y="64" width="204" height="204" rx="8" fill="#ffffff" stroke="#047857" stroke-width="2" stroke-dasharray="6 4"/>
+  <rect x="64" y="92" width="148" height="148" fill="#0f172a" rx="4"/>
+  <rect x="76" y="104" width="36" height="36" fill="#ffffff"/>
+  <rect x="84" y="112" width="20" height="20" fill="#0f172a"/>
+  <rect x="164" y="104" width="36" height="36" fill="#ffffff"/>
+  <rect x="172" y="112" width="20" height="20" fill="#0f172a"/>
+  <rect x="76" y="192" width="36" height="36" fill="#ffffff"/>
+  <rect x="84" y="200" width="20" height="20" fill="#0f172a"/>
+  <rect x="124" y="152" width="28" height="28" fill="#ffffff" rx="4"/>
+  <text x="131" y="170" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#047857">UPI</text>
+  <text x="64" y="82" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#047857">Quiet Zone (White Margin)</text>
+
+  <!-- Right Checklist -->
+  <rect x="268" y="64" width="462" height="204" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="288" y="96" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#0f172a">• Quiet Zone Margin: Keep at least 4 modules of blank white border</text>
+  <text x="288" y="128" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#0f172a">• Positive Contrast: Dark ink on matte white (never invert colors)</text>
+  <text x="288" y="160" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#0f172a">• Distance Rule of Thumb: ~10 : 1 (e.g. 5 cm code for 50 cm counter)</text>
+  <text x="288" y="192" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#0f172a">• Center Logo Limit: Use Error Correction H if placing a small logo</text>
+  <text x="288" y="224" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#065f46">• Tamper Check: Seal under acrylic &amp; verify merchant name daily</text>
+</svg>

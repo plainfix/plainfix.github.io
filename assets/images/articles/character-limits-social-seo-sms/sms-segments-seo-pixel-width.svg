@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="290" viewBox="0 0 760 290" role="img" aria-labelledby="char-lim-title char-lim-desc">
+  <title id="char-lim-title">How SMS Segments (160 GSM-7 vs 70 Unicode) and SEO Title Pixel Width Work</title>
+  <desc id="char-lim-desc">Diagram comparing GSM-7 160-character SMS vs Unicode 70-character SMS triggered by a single emoji or Hindi character, plus Google SERP 600px title width.</desc>
+  <rect width="760" height="290" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="30" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Why One Emoji Cuts Your SMS Limit in Half &amp; How Google Measures Titles</text>
+
+  <rect x="30" y="64" width="338" height="196" rx="10" fill="#ffffff" stroke="#047857" stroke-width="2"/>
+  <text x="48" y="94" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#065f46">SMS: GSM-7 vs Unicode (UCS-2)</text>
+  <text x="48" y="122" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#0f172a">• Plain Latin (GSM-7): <tspan font-weight="700">160 chars / segment</tspan></text>
+  <text x="48" y="146" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#0f172a">  (153 chars per segment if multi-part)</text>
+  <text x="48" y="174" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#b91c1c">• Add 1 Emoji, Hindi word, or curly quote:</text>
+  <text x="48" y="194" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#b91c1c" font-weight="700">  Drops to 70 chars / segment (67 multi-part)</text>
+
+  <rect x="392" y="64" width="338" height="196" rx="10" fill="#ecfdf5" stroke="#047857" stroke-width="2"/>
+  <text x="410" y="94" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#065f46">SEO Titles: Pixel Width (~600 px)</text>
+  <text x="410" y="122" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#0f172a">• Google truncates by <tspan font-weight="700">rendered pixel width</tspan>,</text>
+  <text x="410" y="142" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#0f172a">  not a hard character count</text>
+  <text x="410" y="168" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#0f172a">• Wide letters (`W`, `M`, `G`) take 3x the</text>
+  <text x="410" y="188" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#0f172a">  horizontal space of thin letters (`i`, `l`)</text>
+  <text x="410" y="218" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#065f46">Safe rule of thumb: ~50–60 characters</text>
+</svg>

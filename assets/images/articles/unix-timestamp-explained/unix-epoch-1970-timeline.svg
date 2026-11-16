@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="285" viewBox="0 0 760 285" role="img" aria-labelledby="epoch-title epoch-desc">
+  <title id="epoch-title">Unix Epoch Timeline: 1970 Start, 10-Digit Seconds vs 13-Digit Milliseconds, and 2038</title>
+  <desc id="epoch-desc">Timeline from Unix Epoch 0 (1970-01-01T00:00:00Z) to current 10-digit seconds and 13-digit milliseconds and the 32-bit signed integer limit on January 19, 2038.</desc>
+  <rect width="760" height="285" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="30" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Unix Timestamp Scale: Seconds vs Milliseconds &amp; Why 1970 Appears</text>
+
+  <rect x="30" y="64" width="220" height="192" rx="10" fill="#fffbeb" stroke="#f59e0b" stroke-width="2"/>
+  <text x="46" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#92400e">Epoch Zero (Timestamp = 0)</text>
+  <text x="46" y="120" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" font-weight="700" fill="#0f172a">1970-01-01 00:00:00 UTC</text>
+  <text x="46" y="150" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#0f172a">When a database field is</text>
+  <text x="46" y="170" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#0f172a">null/0—or seconds are</text>
+  <text x="46" y="190" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#0f172a">read as ms—apps display</text>
+  <text x="46" y="210" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#92400e">Jan 1, 1970 (or Dec 31, 1969).</text>
+
+  <rect x="270" y="64" width="220" height="192" rx="10" fill="#ecfdf5" stroke="#047857" stroke-width="2"/>
+  <text x="286" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#065f46">10 Digits vs 13 Digits</text>
+  <text x="286" y="120" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#0f172a">1794830400    (10 = sec)</text>
+  <text x="286" y="144" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#047857">1794830400000 (13 = ms)</text>
+  <text x="286" y="176" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">Unix/Python/SQL use 10-digit</text>
+  <text x="286" y="196" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">seconds; JavaScript Date.now()</text>
+  <text x="286" y="216" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">uses 13-digit milliseconds.</text>
+
+  <rect x="510" y="64" width="220" height="192" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="526" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#0f172a">Year 2038 (32-Bit Limit)</text>
+  <text x="526" y="120" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="700" fill="#b91c1c">2,147,483,647 seconds</text>
+  <text x="526" y="148" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">19 Jan 2038 03:14:07 UTC</text>
+  <text x="526" y="174" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">Legacy 32-bit signed</text>
+  <text x="526" y="194" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">clocks overflow unless</text>
+  <text x="526" y="214" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#065f46" font-weight="600">stored as 64-bit integers.</text>
+</svg>

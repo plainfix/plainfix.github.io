@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300" role="img" aria-labelledby="kb-flow-title kb-flow-desc">
+  <title id="kb-flow-title">Three-Step Order to Resize a Photo and Signature to Exact Pixels and KB</title>
+  <desc id="kb-flow-desc">Step 1: Crop to aspect ratio. Step 2: Set exact width and height in pixels. Step 3: Adjust JPEG quality slider to hit target KB range.</desc>
+  <rect width="760" height="300" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="30" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Correct Resize Sequence (Prevents Stretching &amp; KB Mismatches)</text>
+
+  <!-- Step 1 -->
+  <rect x="30" y="68" width="210" height="196" rx="10" fill="#ffffff" stroke="#047857" stroke-width="2"/>
+  <rect x="46" y="84" width="64" height="24" rx="5" fill="#ecfdf5"/>
+  <text x="58" y="100" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#065f46">STEP 1</text>
+  <text x="46" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700" fill="#0f172a">Crop Aspect Ratio</text>
+  <text x="46" y="156" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#475569">Match frame shape</text>
+  <text x="46" y="176" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#475569">first (e.g. 3.5 : 4.5</text>
+  <text x="46" y="196" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#475569">portrait or wide</text>
+  <text x="46" y="216" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#475569">signature box).</text>
+  <text x="46" y="244" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#047857">Result: Zero distortion</text>
+
+  <!-- Arrow 1 -->
+  <path d="M248 166h20m-6-6l6 6-6 6" stroke="#047857" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Step 2 -->
+  <rect x="276" y="68" width="210" height="196" rx="10" fill="#ffffff" stroke="#047857" stroke-width="2"/>
+  <rect x="292" y="84" width="64" height="24" rx="5" fill="#ecfdf5"/>
+  <text x="304" y="100" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#065f46">STEP 2</text>
+  <text x="292" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700" fill="#0f172a">Resize Pixels (px)</text>
+  <text x="292" y="156" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#475569">Set exact Width x</text>
+  <text x="292" y="176" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#475569">Height in pixels</text>
+  <text x="292" y="196" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#475569">(e.g. 200 x 230 px</text>
+  <text x="292" y="216" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#475569">or 140 x 60 px).</text>
+  <text x="292" y="244" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#047857">Result: Exact resolution</text>
+
+  <!-- Arrow 2 -->
+  <path d="M494 166h20m-6-6l6 6-6 6" stroke="#047857" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Step 3 -->
+  <rect x="522" y="68" width="208" height="196" rx="10" fill="#ffffff" stroke="#047857" stroke-width="2"/>
+  <rect x="538" y="84" width="64" height="24" rx="5" fill="#ecfdf5"/>
+  <text x="550" y="100" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#065f46">STEP 3</text>
+  <text x="538" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700" fill="#0f172a">Export JPG for KB</text>
+  <text x="538" y="156" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#475569">Adjust JPEG quality</text>
+  <text x="538" y="176" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#475569">so file weight lands</text>
+  <text x="538" y="196" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#475569">inside the allowed</text>
+  <text x="538" y="216" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#475569">KB range (e.g. 20-50 KB).</text>
+  <text x="538" y="244" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#047857">Result: Passes portal check</text>
+</svg>

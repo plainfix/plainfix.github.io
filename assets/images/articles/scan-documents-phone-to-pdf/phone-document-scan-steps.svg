@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="285" viewBox="0 0 760 285" role="img" aria-labelledby="scan-pdf-title scan-pdf-desc">
+  <title id="scan-pdf-title">Four Steps to Scan Multi-Page Documents Into One Clean PDF by Phone</title>
+  <desc id="scan-pdf-desc">Step 1 Flat dark surface with daylight, Step 2 Auto perspective crop, Step 3 Apply Color or Grayscale filter, Step 4 Reorder pages and save with a clear filename.</desc>
+  <rect width="760" height="285" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="30" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Phone Document Scanning Checklist for Crisp, Multi-Page PDFs</text>
+
+  <rect x="28" y="64" width="164" height="192" rx="10" fill="#ffffff" stroke="#047857" stroke-width="2"/>
+  <text x="44" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#065f46">1. Dark Flat Surface</text>
+  <text x="44" y="118" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">Place white paper on</text>
+  <text x="44" y="138" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">a dark table near</text>
+  <text x="44" y="158" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">window light so edge</text>
+  <text x="44" y="178" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">detection locks on</text>
+  <text x="44" y="198" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">all 4 corners.</text>
+
+  <rect x="208" y="64" width="164" height="192" rx="10" fill="#ffffff" stroke="#047857" stroke-width="2"/>
+  <text x="224" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#065f46">2. Perspective Crop</text>
+  <text x="224" y="118" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">Drag the 4 corner</text>
+  <text x="224" y="138" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">handles tightly to</text>
+  <text x="224" y="158" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">the paper edge to</text>
+  <text x="224" y="178" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">flatten tilted pages</text>
+  <text x="224" y="198" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">into a rectangle.</text>
+
+  <rect x="388" y="64" width="164" height="192" rx="10" fill="#ffffff" stroke="#047857" stroke-width="2"/>
+  <text x="404" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#065f46">3. Clean Filter</text>
+  <text x="404" y="118" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">Use B&amp;W / Grayscale</text>
+  <text x="404" y="138" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">for text forms, or</text>
+  <text x="404" y="158" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">Color Drawing for</text>
+  <text x="404" y="178" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">certificates with</text>
+  <text x="404" y="198" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">official stamps.</text>
+
+  <rect x="568" y="64" width="164" height="192" rx="10" fill="#ffffff" stroke="#047857" stroke-width="2"/>
+  <text x="584" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#065f46">4. Order &amp; Name</text>
+  <text x="584" y="118" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">Tap "+" to add Page</text>
+  <text x="584" y="138" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">2, 3, 4 into the</text>
+  <text x="584" y="158" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">same document, and</text>
+  <text x="584" y="178" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">save as a clean</text>
+  <text x="584" y="198" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">hyphenated filename.</text>
+</svg>

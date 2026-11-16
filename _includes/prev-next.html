@@ -1,0 +1,37 @@
+{% if page.category %}
+{% assign cat_posts = site.categories[page.category] | where_exp: "item", "item.published != false" %}
+{% assign prev_post = nil %}
+{% assign next_post = nil %}
+{% assign found_current = false %}
+{% for p in cat_posts %}
+  {% if found_current and prev_post == nil %}
+    {% assign prev_post = p %}
+  {% endif %}
+  {% if p.url == page.url %}
+    {% assign found_current = true %}
+  {% endif %}
+  {% unless found_current %}
+    {% assign next_post = p %}
+  {% endunless %}
+{% endfor %}
+{% if prev_post or next_post %}
+<nav class="prev-next-nav" aria-label="Previous and next guides in this category">
+  <div class="prev-next-grid">
+    {% if prev_post %}
+    <a class="prev-next-card prev-card" href="{{ prev_post.url | relative_url }}">
+      <span class="prev-next-label">&larr; Previous in category</span>
+      <span class="prev-next-title">{{ prev_post.title }}</span>
+    </a>
+    {% else %}
+    <div></div>
+    {% endif %}
+    {% if next_post %}
+    <a class="prev-next-card next-card" href="{{ next_post.url | relative_url }}">
+      <span class="prev-next-label">Next in category &rarr;</span>
+      <span class="prev-next-title">{{ next_post.title }}</span>
+    </a>
+    {% endif %}
+  </div>
+</nav>
+{% endif %}
+{% endif %}

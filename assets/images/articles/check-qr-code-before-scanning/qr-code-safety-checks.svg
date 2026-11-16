@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300" role="img" aria-labelledby="qr-scam-title qr-scam-desc">
+  <title id="qr-scam-title">Four Checks Before You Scan or Pay a QR Code</title>
+  <desc id="qr-scam-desc">Visual checklist showing physical sticker check, URL domain preview, UPI payment direction check, and page behavior check.</desc>
+  <rect width="760" height="300" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="30" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#0f172a">How to Inspect a QR Code Before Opening a Link or Entering a PIN</text>
+
+  <rect x="30" y="64" width="338" height="96" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="48" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#047857">1. Check the Physical Surface</text>
+  <text x="48" y="116" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#475569">Feel for a raised paper or vinyl sticker</text>
+  <text x="48" y="138" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#475569">pasted over a shop standee or parking sign.</text>
+
+  <rect x="392" y="64" width="338" height="96" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#047857">2. Read the Decoded Domain First</text>
+  <text x="410" y="116" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#475569">Do not auto-open. Check the domain right</text>
+  <text x="410" y="138" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#475569">before the first single slash (avoid short URLs).</text>
+
+  <rect x="30" y="178" width="338" height="96" rx="10" fill="#fffbeb" stroke="#f59e0b" stroke-width="2"/>
+  <text x="48" y="206" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#92400e">3. Never Scan to "Receive" Money</text>
+  <text x="48" y="230" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#0f172a">Scanning a payment QR &amp; entering a PIN</text>
+  <text x="48" y="252" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#b91c1c" font-weight="600">ONLY sends money out of your account.</text>
+
+  <rect x="392" y="178" width="338" height="96" rx="10" fill="#fef2f2" stroke="#b91c1c" stroke-width="2"/>
+  <text x="410" y="206" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#b91c1c">4. Close Password &amp; APK Prompts</text>
+  <text x="410" y="230" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#0f172a">If a QR opens an email login, card form, or</text>
+  <text x="410" y="252" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#0f172a">.apk download, close the browser tab at once.</text>
+</svg>

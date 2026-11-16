@@ -1,0 +1,66 @@
+---
+layout: default
+title: "Search Tech Guides"
+description: "Search across all published step-by-step guides on Plainfix by keyword or filter by topic category to find practical fixes for everyday tech problems."
+permalink: /search/
+sitemap: false
+noindex: true
+---
+<div class="container page-container">
+  {% include breadcrumbs.html %}
+
+  <header class="category-header">
+    <span class="category-header-badge">Search</span>
+    <h1 class="page-title">{{ page.title }}</h1>
+    <p class="page-lead">Find step-by-step guides by keyword, file format, error message, or topic category.</p>
+  </header>
+
+  <section class="widget-box" aria-label="Search controls">
+    <form action="{{ '/search/' | relative_url }}" method="get" role="search" class="widget-grid">
+      <div class="widget-field">
+        <label for="search-page-input">Keywords</label>
+        <input
+          type="search"
+          id="search-page-input"
+          name="q"
+          class="widget-input widget-full"
+          placeholder="e.g. HEIC, 200 KB PDF, passkeys, UPI scam, JSON…">
+      </div>
+      <div class="widget-field">
+        <label for="search-page-category">Filter by Category</label>
+        <select id="search-page-category" name="cat" class="widget-select widget-full">
+          <option value="">All categories</option>
+          {% for cat in site.data.categories %}
+          <option value="{{ cat.slug }}">{{ cat.name }}</option>
+          {% endfor %}
+        </select>
+      </div>
+    </form>
+    <p id="search-page-status" aria-live="polite" class="search-status">
+      Enter a keyword above or browse categories below.
+    </p>
+  </section>
+
+  <div id="search-page-results" class="card-grid card-grid-spaced-lg"></div>
+
+  <noscript>
+    <div class="callout callout-note">
+      <div class="callout-header"><strong class="callout-title">JavaScript is disabled</strong></div>
+      <div class="callout-body">
+        <p>Live search requires JavaScript. You can browse every published guide on the <a href="{{ '/sitemap.html' | relative_url }}">HTML Sitemap</a> or pick a topic category below.</p>
+      </div>
+    </div>
+  </noscript>
+
+  <section class="other-categories-section" aria-labelledby="search-browse-cats">
+    <h2 id="search-browse-cats" class="section-heading">Browse by Topic Category</h2>
+    <div class="category-grid-compact">
+      {% for cat in site.data.categories %}
+      <a class="category-mini-card" href="{{ '/category/' | append: cat.slug | append: '/' | relative_url }}">
+        <strong>{{ cat.name }}</strong>
+        <span>{{ cat.description | truncate: 95 }}</span>
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+</div>

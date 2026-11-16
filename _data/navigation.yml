@@ -1,0 +1,23 @@
+header:
+  - title: "Guides"
+    url: "/blog/"
+  - title: "Categories"
+    url: "/category/"
+  - title: "About"
+    url: "/about/"
+
+footer_legal:
+  - title: "About"
+    url: "/about/"
+  - title: "Editorial Policy"
+    url: "/editorial-policy/"
+  - title: "Contact"
+    url: "/contact/"
+  - title: "Privacy Policy"
+    url: "/privacy/"
+  - title: "Terms of Use"
+    url: "/terms/"
+  - title: "Disclaimer"
+    url: "/disclaimer/"
+  - title: "HTML Sitemap"
+    url: "/sitemap.html"

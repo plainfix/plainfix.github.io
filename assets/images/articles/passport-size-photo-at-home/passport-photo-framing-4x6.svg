@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300" role="img" aria-labelledby="pp-photo-title pp-photo-desc">
+  <title id="pp-photo-title">Passport Photo Framing Proportions and 4x6 Print Sheet Layout</title>
+  <desc id="pp-photo-desc">Diagram showing head height between 70-80% of frame on the left and a 4x6 inch photo print sheet holding eight 35x45 mm or six 2x2 inch photos on the right.</desc>
+  <rect width="760" height="300" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="30" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Standard Passport Framing Guide &amp; 4×6 Inch Print Sheet Layout</text>
+
+  <!-- Left: Head framing -->
+  <rect x="30" y="64" width="320" height="208" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  <rect x="52" y="82" width="130" height="170" rx="4" fill="#f8fafc" stroke="#047857" stroke-width="2"/>
+  <ellipse cx="117" cy="148" rx="34" ry="44" fill="#ecfdf5" stroke="#047857" stroke-width="2"/>
+  <path d="M72 242c8-26 26-38 45-38s37 12 45 38" fill="#ecfdf5" stroke="#047857" stroke-width="2"/>
+  <line x1="52" y1="100" x2="182" y2="100" stroke="#047857" stroke-dasharray="4 3"/>
+  <line x1="52" y1="194" x2="182" y2="194" stroke="#047857" stroke-dasharray="4 3"/>
+  <text x="196" y="104" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#065f46">Top hair margin</text>
+  <text x="196" y="150" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="700" fill="#0f172a">Head: 70–80% height</text>
+  <text x="196" y="172" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#475569">Eyes level &amp; open</text>
+  <text x="196" y="196" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#065f46">Chin line</text>
+  <text x="196" y="226" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#475569">Plain white/off-white</text>
+  <text x="196" y="244" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#475569">shadow-free wall</text>
+
+  <!-- Right: 4x6 Sheet -->
+  <rect x="378" y="64" width="352" height="208" rx="10" fill="#ffffff" stroke="#047857" stroke-width="2"/>
+  <text x="398" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#065f46">4 × 6 Inch Postcard Print Sheet (8 Copies)</text>
+  <g fill="#ecfdf5" stroke="#047857" stroke-width="1.5">
+    <rect x="402" y="108" width="66" height="70" rx="3"/>
+    <rect x="480" y="108" width="66" height="70" rx="3"/>
+    <rect x="558" y="108" width="66" height="70" rx="3"/>
+    <rect x="636" y="108" width="66" height="70" rx="3"/>
+    <rect x="402" y="188" width="66" height="70" rx="3"/>
+    <rect x="480" y="188" width="66" height="70" rx="3"/>
+    <rect x="558" y="188" width="66" height="70" rx="3"/>
+    <rect x="636" y="188" width="66" height="70" rx="3"/>
+  </g>
+</svg>

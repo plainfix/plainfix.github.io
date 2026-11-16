@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="285" viewBox="0 0 760 285" role="img" aria-labelledby="ocr-title ocr-desc">
+  <title id="ocr-title">Choosing the Right Built-In OCR Tool for Scanned PDFs vs Single Images</title>
+  <desc id="ocr-desc">Decision chart mapping Single Image or Signboard to Google Lens / iOS Live Text / Windows Snipping Tool, and Multi-Page Scanned PDF to Google Drive Open with Google Docs OCR.</desc>
+  <rect width="760" height="285" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="30" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#0f172a">How Optical Character Recognition (OCR) Turns Flat Scans Into Editable Text</text>
+
+  <rect x="30" y="64" width="338" height="192" rx="10" fill="#ffffff" stroke="#047857" stroke-width="2"/>
+  <text x="48" y="94" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#065f46">1. Single Photo, Screenshot, or Page</text>
+  <text x="48" y="122" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#0f172a">• Android / Chrome: <tspan font-weight="700">Google Lens → Select Text</tspan></text>
+  <text x="48" y="146" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#0f172a">• iPhone / Mac: <tspan font-weight="700">Live Text icon</tspan> (bottom-right)</text>
+  <text x="48" y="170" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#0f172a">• Windows 11: <tspan font-weight="700">Snipping Tool → Text actions</tspan></text>
+  <text x="48" y="210" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#047857">Best for quick paragraphs, receipts &amp; Hindi signs</text>
+
+  <rect x="392" y="64" width="338" height="192" rx="10" fill="#ecfdf5" stroke="#047857" stroke-width="2"/>
+  <text x="410" y="94" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#065f46">2. Multi-Page Scanned PDF Document</text>
+  <text x="410" y="122" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#0f172a">• Upload PDF to <tspan font-weight="700">Google Drive</tspan> on desktop</text>
+  <text x="410" y="146" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#0f172a">• Right-click → <tspan font-weight="700">Open with → Google Docs</tspan></text>
+  <text x="410" y="170" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#0f172a">• Extracts all pages + supports 100+ scripts</text>
+  <text x="410" y="210" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#065f46">Always proofread 0/O, 1/I/l, and decimal points!</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="290" viewBox="0 0 760 290" role="img" aria-labelledby="gstorage-title gstorage-desc">
+  <title id="gstorage-title">How Google's Shared 15 GB Quota Splits Across Drive, Gmail, and Photos</title>
+  <desc id="gstorage-desc">Diagram showing that Google Photos videos, Google Drive large files and backups, and Gmail attachments all draw from one shared 15 GB pool, and Trash folders still count until emptied.</desc>
+  <rect width="760" height="290" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="30" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Why Gmail Says "Storage Full" Even When Your Inbox Looks Empty</text>
+
+  <rect x="30" y="64" width="700" height="44" rx="8" fill="#047857"/>
+  <text x="48" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#ffffff">One Shared 15 GB Google Account Pool (one.google.com/storage)</text>
+
+  <rect x="30" y="126" width="220" height="136" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="46" y="154" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#065f46">1. Google Photos</text>
+  <text x="46" y="178" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#475569">• Auto-backed-up phone</text>
+  <text x="46" y="198" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#475569">  videos &amp; screenshots</text>
+  <text x="46" y="222" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#b91c1c">• Usually 60–75% of usage</text>
+
+  <rect x="270" y="126" width="220" height="136" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="286" y="154" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#065f46">2. Google Drive</text>
+  <text x="286" y="178" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#475569">• Old ZIP/video uploads</text>
+  <text x="286" y="198" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#475569">• WhatsApp &amp; Android</text>
+  <text x="286" y="218" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#475569">  device backups</text>
+  <text x="286" y="242" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#047857">• Sort by "Storage used"</text>
+
+  <rect x="510" y="126" width="220" height="136" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="526" y="154" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#065f46">3. Gmail + 3 Trash Bins</text>
+  <text x="526" y="178" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#475569">• Emails with PDFs/photos</text>
+  <text x="526" y="198" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#475569">• Search: larger:10M</text>
+  <text x="526" y="222" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#92400e">• Empty all 3 Trash folders!</text>
+</svg>

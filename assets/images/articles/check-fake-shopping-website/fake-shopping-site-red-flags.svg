@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="295" viewBox="0 0 760 295" role="img" aria-labelledby="fake-shop-title fake-shop-desc">
+  <title id="fake-shop-title">Five-Point Pre-Payment Check to Spot a Fake Shopping Website</title>
+  <desc id="fake-shop-desc">Diagram showing five checks: 1. Domain age under 90 days in WHOIS, 2. 80% off luxury discounts, 3. UPI-only payment to personal name, 4. Copied product photos, 5. Missing physical address and return policy.</desc>
+  <rect width="760" height="295" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="30" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#0f172a">60-Second Check Before You Pay an Unfamiliar Online Store</text>
+
+  <rect x="30" y="64" width="338" height="96" rx="10" fill="#ffffff" stroke="#047857" stroke-width="2"/>
+  <text x="48" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="700" fill="#065f46">1. Check Domain Age (ICANN Lookup)</text>
+  <text x="48" y="116" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">A store claiming "Since 2015" on a domain</text>
+  <text x="48" y="136" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#b91c1c" font-weight="600">registered 14 days ago is a throwaway scam.</text>
+
+  <rect x="392" y="64" width="338" height="96" rx="10" fill="#ffffff" stroke="#047857" stroke-width="2"/>
+  <text x="410" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="700" fill="#065f46">2. Ignore the HTTPS Padlock Myth</text>
+  <text x="410" y="116" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">An https:// padlock only means encrypted</text>
+  <text x="410" y="136" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#475569">traffic—not that the business is real.</text>
+
+  <rect x="30" y="176" width="338" height="96" rx="10" fill="#fffbeb" stroke="#f59e0b" stroke-width="2"/>
+  <text x="48" y="204" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="700" fill="#92400e">3. Inspect the Checkout Payment Page</text>
+  <text x="48" y="228" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#0f172a">Avoid stores that block Credit Cards/COD and</text>
+  <text x="48" y="248" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#b91c1c" font-weight="600">demand UPI transfer to a personal Gmail/ID.</text>
+
+  <rect x="392" y="176" width="338" height="96" rx="10" fill="#fef2f2" stroke="#b91c1c" stroke-width="2"/>
+  <text x="410" y="204" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="700" fill="#b91c1c">4. Reverse-Search Product Photos</text>
+  <text x="410" y="228" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#0f172a">Instagram/Facebook ad stores often steal</text>
+  <text x="410" y="248" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#0f172a">videos from real independent boutiques.</text>
+</svg>

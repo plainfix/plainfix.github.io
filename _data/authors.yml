@@ -1,0 +1,6 @@
+main:
+  name: "Sebi Bano"
+  bio: "Sebi Bano writes step-by-step guides that fix everyday tech problems with photos, PDFs, phones and online safety. Every guide is checked against official documentation before it is published."
+  # TODO: Add real author photo path (e.g. /assets/images/sebi-bano.jpg) or leave empty; never use an AI headshot
+  photo: ""
+  url: "/about/"
