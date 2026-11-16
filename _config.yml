@@ -29,9 +29,8 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
 
-# TODO: Add Google Search Console verification code after creating the URL-prefix property for https://plainfix.github.io/
 webmaster_verifications:
-  google: ""
+  google: "ODqZQ_MOiYO4UaTnr0ODP1DFpPer77i8acVxn2k4Hws"
 
 defaults:
   - scope:
